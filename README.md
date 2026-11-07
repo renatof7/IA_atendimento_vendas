@@ -20,7 +20,7 @@ A **Lili** nasceu para ser o **terceiro caminho**: **conversa humana e fluida po
 
 ---
 
-## ✨ O Que Este Projeto Faz (Enquanto a Equipe Comercial Dorme)
+## ✨ O Que Este Projeto Faz (Enquanto a Equipe Comercial Faz Visitas)
 
 | Módulo | O que acontece nos bastidores |
 | :--- | :--- |
