@@ -1,0 +1,117 @@
+{
+  "construtora": {
+    "nome": "Construtora Demo",
+    "cidades_atuacao": [
+      "Tubarão",
+      "Capivari de Baixo",
+      "Pescaria Brava"
+    ],
+    "missao": "Realizar o sonho da casa própria com qualidade construtiva, segurança e condições acessíveis pelo Minha Casa, Minha Vida.",
+    "assinaturas_marca": [
+      "Seu lar, sua história.",
+      "O melhor da construção te espera!"
+    ],
+    "diferenciais_construtivos": [
+      "Projetos planejados para o Minha Casa, Minha Vida (Faixas 1 a 4)",
+      "Acabamento de alto padrão para a categoria (piso cerâmico/porcelanato e esquadrias de qualidade)",
+      "Apartamentos com sacada e churrasqueira a carvão",
+      "Casas com pátio privativo e excelente aproveitamento de terreno",
+      "Localização em bairros com infraestrutura completa e fácil acesso",
+      "Acompanhamento completo no financiamento junto à Caixa e correspondente bancário"
+    ]
+  },
+  "horarios_e_plantoes": {
+    "horario_atendimento_humano": "Segunda a Sexta das 08h30 às 18h30 e Sábados das 09h00 às 13h00",
+    "opcoes_sugeridas_visita_dupla": "terça às 15h ou quarta às 10h (ou sábado pela manhã, às 10h)",
+    "stands": [
+      {
+        "unidade": "Matriz e Plantão Central — Tubarão",
+        "cidade": "Tubarão",
+        "endereco": "Av. Central, 1000, Centro — Tubarão/SC",
+        "horario": "Segunda a Sexta das 08h30 às 18h30 | Sábado das 09h00 às 13h00"
+      },
+      {
+        "unidade": "Plantão Capivari de Baixo",
+        "cidade": "Capivari de Baixo",
+        "endereco": "Av. Principal, 500, Centro — Capivari de Baixo/SC",
+        "horario": "Segunda a Sexta das 08h30 às 18h00 | Sábado das 09h00 às 12h30"
+      },
+      {
+        "unidade": "Atendimento Pescaria Brava (Stand / Visita guiada à obra)",
+        "cidade": "Pescaria Brava",
+        "endereco": "Rodovia Municipal, Km 4, Bairro Centro — Pescaria Brava/SC (visitas agendadas com o plantão)",
+        "horario": "Segunda a Sábado mediante agendamento prévio"
+      }
+    ]
+  },
+  "documentacao_basica_simulacao": {
+    "aviso_seguranca_lgpd": "Os documentos são entregues exclusivamente ao vendedor ou correspondente bancário na simulação, nunca enviados pelo WhatsApp da Lili.",
+    "documentos_gerais": [
+      "RG e CPF (ou CNH válida)",
+      "Comprovante de estado civil (Certidão de Nascimento ou de Casamento)",
+      "Comprovante de residência atualizado (conta de água, luz ou telefone)",
+      "Extrato atualizado do FGTS e Carteira de Trabalho (para quem vai utilizar FGTS)"
+    ],
+    "comprovacao_renda": {
+      "clt_formal": "Últimos 3 contracheques (holerites) e Carteira de Trabalho (física ou digital)",
+      "autonomo_pj_mista": "Declaração de Imposto de Renda, extratos bancários dos últimos 6 meses ou pró-labore/faturamento MEI (analisado pelo correspondente)"
+    }
+  },
+  "canais_encaminhamento_especifico": {
+    "pos_venda_assistencia_boleto": {
+      "publico": "Clientes já com contrato ativo (andamento da sua unidade, entrega de chaves, assistência técnica ou 2ª via de boleto)",
+      "canal": "Central de Relacionamento e Pós-Venda",
+      "contato": "relacionamento@construtorademo.com.br | Atendimento de Segunda a Sexta das 08h30 às 18h00",
+      "orientacao_lili": "Encaminhar com cordialidade ao canal de relacionamento/pós-venda sem abrir novo lead de pré-venda."
+    },
+    "parcerias_corretores_imobiliarias": {
+      "publico": "Corretores autônomos ou imobiliárias buscando parceria comercial e tabelas",
+      "canal": "Coordenação de Parcerias Comerciais",
+      "contato": "parcerias@construtorademo.com.br",
+      "orientacao_lili": "Agradecer o interesse, informar o canal do responsável por parcerias e encerrar como sem perfil de compra."
+    },
+    "fornecedores_imprensa_curriculos": {
+      "publico": "Fornecedores de materiais/serviços, assessoria de imprensa ou envio de currículos (Trabalhe Conosco)",
+      "canal": "Administrativo / Suprimentos / RH",
+      "contato": "contato@construtorademo.com.br | rh@construtorademo.com.br | compras@construtorademo.com.br",
+      "orientacao_lili": "Informar o e-mail do setor correto, agradecer o contato e encerrar registrando o motivo no CRM."
+    }
+  },
+  "perguntas_frequentes_faq": [
+    {
+      "tema": "documentacao",
+      "pergunta": "Quais documentos preciso levar para fazer a simulação ou visita?",
+      "resposta_curta": "Pra simulação é bem simples: RG e CPF (ou CNH), comprovante de residência, comprovante de estado civil e comprovante de renda (e extrato do FGTS, se tiver). Você leva direto pro vendedor na visita, não precisa mandar foto por aqui, tá?"
+    },
+    {
+      "tema": "subsidio",
+      "pergunta": "Como funciona o subsídio do Minha Casa, Minha Vida?",
+      "resposta_curta": "O subsídio é um desconto no valor do imóvel concedido pelo governo nas Faixas 1 e 2, de acordo com a renda bruta e a situação familiar. O valor exato é calculado pela Caixa na hora da simulação com o nosso time."
+    },
+    {
+      "tema": "composicao_renda",
+      "pergunta": "Posso somar minha renda com outra pessoa?",
+      "resposta_curta": "Pode sim! A composição de renda permite somar os ganhos com cônjuge, namorado(a), pais, irmãos ou filhos pra alcançar o valor do imóvel. Na simulação nosso especialista vê a melhor combinação pra vocês."
+    },
+    {
+      "tema": "fgts",
+      "pergunta": "Posso usar meu FGTS na entrada?",
+      "resposta_curta": "Pode sim! Tendo pelo menos 3 anos de trabalho sob o regime do FGTS (somando todos os empregos, seguidos ou não) e enquadramento nas regras da Caixa, o saldo ajuda a abater a entrada."
+    },
+    {
+      "tema": "autonomo_pj",
+      "pergunta": "Sou autônomo / MEI / PJ, consigo financiar?",
+      "resposta_curta": "Consegue sim! Quem é autônomo, MEI ou PJ pode comprovar a renda bruta com Imposto de Renda, extratos bancários ou pró-labore. Nosso especialista e o correspondente orientam tudo certinho na simulação."
+    },
+    {
+      "tema": "novo_vs_usado_faixa4",
+      "pergunta": "Qual a vantagem do imóvel novo em relação ao usado na Faixa 4?",
+      "resposta_curta": "Na Faixa 4 do Minha Casa, Minha Vida, o imóvel novo financia até 80% do valor, enquanto o usado financia só 60%. Na prática, a entrada do imóvel novo fica bem menor, além de você receber tudo novinho e na garantia!"
+    },
+    {
+      "tema": "plantao_endereco",
+      "pergunta": "Onde fica o plantão / stand e qual o horário?",
+      "resposta_curta": "Atendemos de segunda a sexta das 8h30 às 18h30 e aos sábados das 9h às 13h, com plantões em Tubarão (Centro), Capivari de Baixo (Centro) e visitas agendadas em Pescaria Brava."
+    }
+  ]
+}

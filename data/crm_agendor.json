@@ -1,0 +1,31 @@
+{
+  "lead_ativo": {
+    "data_hora_entrada": "2026-11-03T14:26:00-03:00",
+    "origem": "WhatsApp direto",
+    "nome": "Cliente Exemplo",
+    "objetivo": "morar",
+    "primeiro_imovel": "Sim",
+    "cidade": "Aberto (Tubarão, Capivari de Baixo, Pescaria Brava)",
+    "tipo_imovel": "Apartamento",
+    "quartos": 2,
+    "renda_bruta_familiar_faixa": "Faixa 3 (R$ 5.000,01 a R$ 9.600)",
+    "tipo_renda": "PJ / Autônomo",
+    "fgts_mais_3_anos": "Não informado (atua como PJ)",
+    "dependentes": "Nenhum (vai morar sozinho)",
+    "imovel_ou_financiamento_ativo": "Não",
+    "restricao_cpf": "Não",
+    "entrada_disponivel": "R$ 10.000",
+    "pre_enquadramento_mcmv": "Faixa 2 / Faixa 3",
+    "prazo_compra": "até 3 meses",
+    "imoveis_apresentados": ["IMOB-TUB-001", "IMOB-TUB-002", "IMOB-PES-001"],
+    "imovel_maior_interesse": "IMOB-TUB-001 (Residencial Parque do Vale - Apto 2Q)",
+    "preferencia_visita": "A definir com o vendedor",
+    "status_visita": "a confirmar",
+    "pontuacao": 80,
+    "temperatura": "Quente",
+    "etapa": "5. Transferido ao vendedor",
+    "motivo_descarte": null,
+    "vendedor_responsavel": "Carlos Eduardo",
+    "resumo_passagem": "Novo lead QUENTE (80 pts) – Cliente Exemplo\nOrigem: WhatsApp direto\nObjetivo: morar sozinho, 1º imóvel | Busca Apto 2 quartos\nRenda bruta: Faixa 3 (PJ) | Entrada: R$ 10 mil | FGTS: não (PJ)\nPrazo: até 3 meses | Opções na base: IMOB-TUB-001 e IMOB-TUB-002\nPróximo passo: apresentar opções prontas e confirmar visita."
+  }
+}

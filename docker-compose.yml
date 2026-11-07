@@ -1,0 +1,70 @@
+services:
+  # 1. Banco de Dados PostgreSQL (Obrigatório na Evolution API v2 para persistir instâncias e credenciais)
+  postgres:
+    image: postgres:15-alpine
+    container_name: lili_imob_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: evolution
+      POSTGRES_PASSWORD: evolution_password
+      POSTGRES_DB: evolution
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U evolution"]
+      interval: 4s
+      timeout: 5s
+      retries: 6
+
+  # 2. Cache Redis (Sessões e filas rápidas)
+  redis:
+    image: redis:7-alpine
+    container_name: lili_imob_redis
+    restart: always
+    command: ["redis-server", "--appendonly", "no"]
+    volumes:
+      - redis_data:/data
+
+  # 3. Evolution API v2 (Gateway WhatsApp QR Code)
+  evolution-api:
+    image: evoapicloud/evolution-api:latest
+    container_name: lili_imob_evolution_api
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      - SERVER_TYPE=http
+      - SERVER_PORT=8080
+      - SERVER_URL=http://localhost:8080
+      - AUTHENTICATION_API_KEY=imob_evolution_secret_2026
+      - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
+      - CONFIG_SESSION_PHONE_CLIENT=Lili IA - Pre-Vendas
+      - CONFIG_SESSION_PHONE_NAME=Chrome
+      # Banco de dados PostgreSQL configurado para v2
+      - DATABASE_ENABLED=true
+      - DATABASE_PROVIDER=postgresql
+      - DATABASE_CONNECTION_URI=postgresql://evolution:evolution_password@postgres:5432/evolution?schema=public
+      - DATABASE_CONNECTION_CLIENT_NAME=evolution_client
+      # Cache Redis
+      - CACHE_REDIS_ENABLED=true
+      - CACHE_REDIS_URI=redis://redis:6379/1
+      - CACHE_REDIS_PREFIX_KEY=evolution
+      - CACHE_REDIS_SAVE_INSTANCES=true
+      # Webhooks globais para entrega na Lili IA
+      - WEBHOOK_GLOBAL_ENABLED=true
+      - WEBHOOK_GLOBAL_URL=http://host.docker.internal:8000/webhook/evolution
+      - WEBHOOK_GLOBAL_WEBHOOK_BY_EVENTS=false
+      - WEBHOOK_EVENTS_MESSAGES_UPSERT=true
+      - LOG_LEVEL=ERROR,WARN,INFO
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    volumes:
+      - evolution_instances:/evolution/instances
+
+volumes:
+  postgres_data:
+  evolution_instances:
+  redis_data:

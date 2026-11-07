@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imoveis atualizacao="2026-11-03T14:00:00-03:00">
+  <imovel>
+    <codigo>IMOB-TUB-001</codigo>
+    <nome>Residencial Parque do Vale</nome>
+    <cidade>Tubarão</cidade>
+    <bairro>São João Margem Esquerda</bairro>
+    <endereco>Rua das Palmeiras, 450</endereco>
+    <tipo>Apartamento</tipo>
+    <tipologia>2 quartos com sacada e churrasqueira</tipologia>
+    <dormitorios>2</dormitorios>
+    <suites>0</suites>
+    <vagas>1</vagas>
+    <metragem_privativa>52,40 m²</metragem_privativa>
+    <valor_a_partir>215000.00</valor_a_partir>
+    <faixas_mcmv>Faixa 1, Faixa 2, Faixa 3</faixas_mcmv>
+    <status>Em obra</status>
+    <previsao_entrega>Outubro/2027</previsao_entrega>
+    <disponibilidade>8</disponibilidade>
+    <diferencial>Sacada com churrasqueira a carvão e salão de festas mobiliado</diferencial>
+    <foto>https://construtorademo.com.br/fotos/parque-do-vale-fachada.jpg</foto>
+    <link>https://construtorademo.com.br/imoveis/residencial-parque-do-vale</link>
+  </imovel>
+
+  <imovel>
+    <codigo>IMOB-TUB-002</codigo>
+    <nome>Residencial Jardins de Tubarão</nome>
+    <cidade>Tubarão</cidade>
+    <bairro>Humaitá de Cima</bairro>
+    <endereco>Av. das Acácias, 1820</endereco>
+    <tipo>Casa</tipo>
+    <tipologia>Casa geminada 2 quartos com pátio privativo</tipologia>
+    <dormitorios>2</dormitorios>
+    <suites>1</suites>
+    <vagas>1</vagas>
+    <metragem_privativa>58,00 m²</metragem_privativa>
+    <valor_a_partir>232000.00</valor_a_partir>
+    <faixas_mcmv>Faixa 1, Faixa 2, Faixa 3</faixas_mcmv>
+    <status>Pronto para morar</status>
+    <previsao_entrega>Imediata</previsao_entrega>
+    <disponibilidade>3</disponibilidade>
+    <diferencial>Amplo pátio nos fundos e acabamento em porcelanato</diferencial>
+    <foto>https://construtorademo.com.br/fotos/jardins-de-tubarao-fachada.jpg</foto>
+    <link>https://construtorademo.com.br/imoveis/residencial-jardins-de-tubarao</link>
+  </imovel>
+
+  <imovel>
+    <codigo>IMOB-TUB-003</codigo>
+    <nome>Villa Imperial</nome>
+    <cidade>Tubarão</cidade>
+    <bairro>Oficinas</bairro>
+    <endereco>Rua Princesa Isabel, 910</endereco>
+    <tipo>Apartamento</tipo>
+    <tipologia>3 quartos sendo 1 suíte</tipologia>
+    <dormitorios>3</dormitorios>
+    <suites>1</suites>
+    <vagas>1</vagas>
+    <metragem_privativa>74,50 m²</metragem_privativa>
+    <valor_a_partir>365000.00</valor_a_partir>
+    <faixas_mcmv>Faixa 3, Faixa 4</faixas_mcmv>
+    <status>Lançamento</status>
+    <previsao_entrega>Maio/2028</previsao_entrega>
+    <disponibilidade>12</disponibilidade>
+    <diferencial>Elevador, área gourmet na sacada e localização próxima ao centro</diferencial>
+    <foto>https://construtorademo.com.br/fotos/villa-imperial-fachada.jpg</foto>
+    <link>https://construtorademo.com.br/imoveis/villa-imperial</link>
+  </imovel>
+
+  <imovel>
+    <codigo>IMOB-CAP-001</codigo>
+    <nome>Residencial Parque das Flores</nome>
+    <cidade>Capivari de Baixo</cidade>
+    <bairro>Santa Lúcia</bairro>
+    <endereco>Rua das Hortênsias, 310</endereco>
+    <tipo>Casa</tipo>
+    <tipologia>Casa 2 quartos com terreno individual</tipologia>
+    <dormitorios>2</dormitorios>
+    <suites>0</suites>
+    <vagas>1</vagas>
+    <metragem_privativa>54,00 m²</metragem_privativa>
+    <valor_a_partir>212000.00</valor_a_partir>
+    <faixas_mcmv>Faixa 1, Faixa 2, Faixa 3</faixas_mcmv>
+    <status>Em obra</status>
+    <previsao_entrega>Agosto/2027</previsao_entrega>
+    <disponibilidade>5</disponibilidade>
+    <diferencial>Passagem lateral independente e espaço nos fundos</diferencial>
+    <foto>https://construtorademo.com.br/fotos/parque-das-flores-fachada.jpg</foto>
+    <link>https://construtorademo.com.br/imoveis/residencial-parque-das-flores</link>
+  </imovel>
+
+  <imovel>
+    <codigo>IMOB-CAP-002</codigo>
+    <nome>Solar do Parque</nome>
+    <cidade>Capivari de Baixo</cidade>
+    <bairro>Centro</bairro>
+    <endereco>Av. Principal, 720</endereco>
+    <tipo>Apartamento</tipo>
+    <tipologia>3 quartos sendo 1 suíte</tipologia>
+    <dormitorios>3</dormitorios>
+    <suites>1</suites>
+    <vagas>1</vagas>
+    <metragem_privativa>69,00 m²</metragem_privativa>
+    <valor_a_partir>335000.00</valor_a_partir>
+    <faixas_mcmv>Faixa 3, Faixa 4</faixas_mcmv>
+    <status>Em obra</status>
+    <previsao_entrega>Dezembro/2027</previsao_entrega>
+    <disponibilidade>6</disponibilidade>
+    <diferencial>No centro da cidade, com elevador e playground</diferencial>
+    <foto>https://construtorademo.com.br/fotos/solar-do-parque-fachada.jpg</foto>
+    <link>https://construtorademo.com.br/imoveis/solar-do-parque</link>
+  </imovel>
+
+  <imovel>
+    <codigo>IMOB-PES-001</codigo>
+    <nome>Recanto da Brava</nome>
+    <cidade>Pescaria Brava</cidade>
+    <bairro>Santiago</bairro>
+    <endereco>Rodovia Municipal, Km 4</endereco>
+    <tipo>Casa</tipo>
+    <tipologia>Casa 2 quartos em loteamento planejado</tipologia>
+    <dormitorios>2</dormitorios>
+    <suites>0</suites>
+    <vagas>1</vagas>
+    <metragem_privativa>50,00 m²</metragem_privativa>
+    <valor_a_partir>198000.00</valor_a_partir>
+    <faixas_mcmv>Faixa 1, Faixa 2, Faixa 3</faixas_mcmv>
+    <status>Pronto para morar</status>
+    <previsao_entrega>Imediata</previsao_entrega>
+    <disponibilidade>4</disponibilidade>
+    <diferencial>Bairro tranquilo em expansão e excelente espaço de quintal</diferencial>
+    <foto>https://construtorademo.com.br/fotos/recanto-da-brava-fachada.jpg</foto>
+    <link>https://construtorademo.com.br/imoveis/recanto-da-brava</link>
+  </imovel>
+</imoveis>
